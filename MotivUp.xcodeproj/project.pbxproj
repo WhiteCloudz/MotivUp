@@ -17,6 +17,29 @@
 		1B96F1C92B9998120083E8CF /* MotivUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1C82B9998120083E8CF /* MotivUpTests.swift */; };
 		1B96F1D32B9998120083E8CF /* MotivUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1D22B9998120083E8CF /* MotivUpUITests.swift */; };
 		1B96F1D52B9998120083E8CF /* MotivUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1D42B9998120083E8CF /* MotivUpUITestsLaunchTests.swift */; };
+		1B96F1E82B99992E0083E8CF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1E72B99992E0083E8CF /* DataManager.swift */; };
+		1B96F1EA2B9999B60083E8CF /* SetupUIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1E92B9999B60083E8CF /* SetupUIComponents.swift */; };
+		1B96F1EC2B9999DC0083E8CF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1EB2B9999DC0083E8CF /* Utilities.swift */; };
+		1B96F1EE2B999A1B0083E8CF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1ED2B999A1B0083E8CF /* Data.swift */; };
+		1B96F1F02B999A620083E8CF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1EF2B999A620083E8CF /* FirstViewController.swift */; };
+		1B96F1F22B999A7C0083E8CF /* SetupNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1F12B999A7C0083E8CF /* SetupNameViewController.swift */; };
+		1B96F1F42B999A940083E8CF /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1F32B999A940083E8CF /* EmotionsViewController.swift */; };
+		1B96F1F62B999ABA0083E8CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1F52B999ABA0083E8CF /* HomeViewController.swift */; };
+		1B96F1F82B999ADF0083E8CF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1F72B999ADF0083E8CF /* SettingsViewController.swift */; };
+		1B96F1FA2B999AFB0083E8CF /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1F92B999AFB0083E8CF /* LikesViewController.swift */; };
+		1B96F1FC2B999B1D0083E8CF /* BackgroundChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1FB2B999B1D0083E8CF /* BackgroundChangeViewController.swift */; };
+		1B96F1FE2B999B3B0083E8CF /* LikedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1FD2B999B3B0083E8CF /* LikedTableViewCell.swift */; };
+		1B96F2002B999B670083E8CF /* BackgroundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1FF2B999B670083E8CF /* BackgroundTableViewCell.swift */; };
+		1B96F2072B9AAABB0083E8CF /* Self-Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F2062B9AAABB0083E8CF /* Self-Love.swift */; };
+		1B96F2092B9AAB5E0083E8CF /* BeingThankful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F2082B9AAB5E0083E8CF /* BeingThankful.swift */; };
+		1B96F20B2B9AEEB60083E8CF /* Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F20A2B9AEEB60083E8CF /* Love.swift */; };
+		1B96F20D2B9AEFBD0083E8CF /* PersonelGrowth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F20C2B9AEFBD0083E8CF /* PersonelGrowth.swift */; };
+		1B96F20F2B9AF0A20083E8CF /* PositifThinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F20E2B9AF0A20083E8CF /* PositifThinking.swift */; };
+		1B96F2112B9AF14C0083E8CF /* Happiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F2102B9AF14C0083E8CF /* Happiness.swift */; };
+		1B96F2132BA10E590083E8CF /* LikesSentences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F2122BA10E590083E8CF /* LikesSentences.swift */; };
+		1B96F2152BA34CD30083E8CF /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F2142BA34CD30083E8CF /* ShareViewController.swift */; };
+		1B96F2182BA3501A0083E8CF /* ShareTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F2162BA3501A0083E8CF /* ShareTableViewCell.swift */; };
+		1B96F2192BA3501A0083E8CF /* ShareTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B96F2172BA3501A0083E8CF /* ShareTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +74,30 @@
 		1B96F1CE2B9998120083E8CF /* MotivUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B96F1D22B9998120083E8CF /* MotivUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivUpUITests.swift; sourceTree = "<group>"; };
 		1B96F1D42B9998120083E8CF /* MotivUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B96F1E72B99992E0083E8CF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1B96F1E92B9999B60083E8CF /* SetupUIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupUIComponents.swift; sourceTree = "<group>"; };
+		1B96F1EB2B9999DC0083E8CF /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1B96F1ED2B999A1B0083E8CF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1B96F1EF2B999A620083E8CF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1B96F1F12B999A7C0083E8CF /* SetupNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupNameViewController.swift; sourceTree = "<group>"; };
+		1B96F1F32B999A940083E8CF /* EmotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
+		1B96F1F52B999ABA0083E8CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B96F1F72B999ADF0083E8CF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1B96F1F92B999AFB0083E8CF /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		1B96F1FB2B999B1D0083E8CF /* BackgroundChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundChangeViewController.swift; sourceTree = "<group>"; };
+		1B96F1FD2B999B3B0083E8CF /* LikedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedTableViewCell.swift; sourceTree = "<group>"; };
+		1B96F1FF2B999B670083E8CF /* BackgroundTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTableViewCell.swift; sourceTree = "<group>"; };
+		1B96F2022B999DE20083E8CF /* MotivUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotivUp.entitlements; sourceTree = "<group>"; };
+		1B96F2062B9AAABB0083E8CF /* Self-Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Self-Love.swift"; sourceTree = "<group>"; };
+		1B96F2082B9AAB5E0083E8CF /* BeingThankful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeingThankful.swift; sourceTree = "<group>"; };
+		1B96F20A2B9AEEB60083E8CF /* Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love.swift; sourceTree = "<group>"; };
+		1B96F20C2B9AEFBD0083E8CF /* PersonelGrowth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonelGrowth.swift; sourceTree = "<group>"; };
+		1B96F20E2B9AF0A20083E8CF /* PositifThinking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositifThinking.swift; sourceTree = "<group>"; };
+		1B96F2102B9AF14C0083E8CF /* Happiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happiness.swift; sourceTree = "<group>"; };
+		1B96F2122BA10E590083E8CF /* LikesSentences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesSentences.swift; sourceTree = "<group>"; };
+		1B96F2142BA34CD30083E8CF /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		1B96F2162BA3501A0083E8CF /* ShareTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTableViewCell.swift; sourceTree = "<group>"; };
+		1B96F2172BA3501A0083E8CF /* ShareTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +148,12 @@
 		1B96F1AD2B99980F0083E8CF /* MotivUp */ = {
 			isa = PBXGroup;
 			children = (
-				1B96F1AE2B99980F0083E8CF /* AppDelegate.swift */,
-				1B96F1B02B99980F0083E8CF /* SceneDelegate.swift */,
-				1B96F1B22B99980F0083E8CF /* ViewController.swift */,
-				1B96F1B42B99980F0083E8CF /* Main.storyboard */,
+				1B96F2022B999DE20083E8CF /* MotivUp.entitlements */,
+				1B96F2012B999BD50083E8CF /* Main */,
+				1B96F1E12B9998B90083E8CF /* Views */,
+				1B96F1E22B9998CE0083E8CF /* Model */,
+				1B96F1E32B9998DB0083E8CF /* ViewControllers */,
 				1B96F1BA2B9998120083E8CF /* Assets.xcassets */,
-				1B96F1BC2B9998120083E8CF /* LaunchScreen.storyboard */,
 				1B96F1BF2B9998120083E8CF /* Info.plist */,
 				1B96F1B72B99980F0083E8CF /* MotivUp.xcdatamodeld */,
 			);
@@ -128,6 +175,94 @@
 				1B96F1D42B9998120083E8CF /* MotivUpUITestsLaunchTests.swift */,
 			);
 			path = MotivUpUITests;
+			sourceTree = "<group>";
+		};
+		1B96F1E12B9998B90083E8CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B96F1E92B9999B60083E8CF /* SetupUIComponents.swift */,
+				1B96F1EB2B9999DC0083E8CF /* Utilities.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B96F1E22B9998CE0083E8CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B96F2052B9AAA960083E8CF /* SentencesData */,
+				1B96F1E72B99992E0083E8CF /* DataManager.swift */,
+				1B96F1ED2B999A1B0083E8CF /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B96F1E32B9998DB0083E8CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B96F1B22B99980F0083E8CF /* ViewController.swift */,
+				1B96F1E42B9998EC0083E8CF /* Setup Flow */,
+				1B96F1E52B9998F80083E8CF /* Usage Flow */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B96F1E42B9998EC0083E8CF /* Setup Flow */ = {
+			isa = PBXGroup;
+			children = (
+				1B96F1EF2B999A620083E8CF /* FirstViewController.swift */,
+				1B96F1F12B999A7C0083E8CF /* SetupNameViewController.swift */,
+				1B96F1F32B999A940083E8CF /* EmotionsViewController.swift */,
+			);
+			path = "Setup Flow";
+			sourceTree = "<group>";
+		};
+		1B96F1E52B9998F80083E8CF /* Usage Flow */ = {
+			isa = PBXGroup;
+			children = (
+				1B96F1F52B999ABA0083E8CF /* HomeViewController.swift */,
+				1B96F1F72B999ADF0083E8CF /* SettingsViewController.swift */,
+				1B96F1F92B999AFB0083E8CF /* LikesViewController.swift */,
+				1B96F1FB2B999B1D0083E8CF /* BackgroundChangeViewController.swift */,
+				1B96F2142BA34CD30083E8CF /* ShareViewController.swift */,
+				1B96F1E62B9999080083E8CF /* TableViewCells */,
+			);
+			path = "Usage Flow";
+			sourceTree = "<group>";
+		};
+		1B96F1E62B9999080083E8CF /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				1B96F1FD2B999B3B0083E8CF /* LikedTableViewCell.swift */,
+				1B96F1FF2B999B670083E8CF /* BackgroundTableViewCell.swift */,
+				1B96F2162BA3501A0083E8CF /* ShareTableViewCell.swift */,
+				1B96F2172BA3501A0083E8CF /* ShareTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		1B96F2012B999BD50083E8CF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1B96F1B02B99980F0083E8CF /* SceneDelegate.swift */,
+				1B96F1AE2B99980F0083E8CF /* AppDelegate.swift */,
+				1B96F1B42B99980F0083E8CF /* Main.storyboard */,
+				1B96F1BC2B9998120083E8CF /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1B96F2052B9AAA960083E8CF /* SentencesData */ = {
+			isa = PBXGroup;
+			children = (
+				1B96F2062B9AAABB0083E8CF /* Self-Love.swift */,
+				1B96F2082B9AAB5E0083E8CF /* BeingThankful.swift */,
+				1B96F20A2B9AEEB60083E8CF /* Love.swift */,
+				1B96F20C2B9AEFBD0083E8CF /* PersonelGrowth.swift */,
+				1B96F20E2B9AF0A20083E8CF /* PositifThinking.swift */,
+				1B96F2102B9AF14C0083E8CF /* Happiness.swift */,
+				1B96F2122BA10E590083E8CF /* LikesSentences.swift */,
+			);
+			path = SentencesData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B96F1BE2B9998120083E8CF /* LaunchScreen.storyboard in Resources */,
+				1B96F2192BA3501A0083E8CF /* ShareTableViewCell.xib in Resources */,
 				1B96F1BB2B9998120083E8CF /* Assets.xcassets in Resources */,
 				1B96F1B62B99980F0083E8CF /* Main.storyboard in Resources */,
 			);
@@ -261,10 +397,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B96F20B2B9AEEB60083E8CF /* Love.swift in Sources */,
+				1B96F2112B9AF14C0083E8CF /* Happiness.swift in Sources */,
+				1B96F1F02B999A620083E8CF /* FirstViewController.swift in Sources */,
 				1B96F1B92B99980F0083E8CF /* MotivUp.xcdatamodeld in Sources */,
+				1B96F1FC2B999B1D0083E8CF /* BackgroundChangeViewController.swift in Sources */,
+				1B96F1EA2B9999B60083E8CF /* SetupUIComponents.swift in Sources */,
+				1B96F2092B9AAB5E0083E8CF /* BeingThankful.swift in Sources */,
+				1B96F1EC2B9999DC0083E8CF /* Utilities.swift in Sources */,
+				1B96F1E82B99992E0083E8CF /* DataManager.swift in Sources */,
+				1B96F2072B9AAABB0083E8CF /* Self-Love.swift in Sources */,
+				1B96F1F22B999A7C0083E8CF /* SetupNameViewController.swift in Sources */,
+				1B96F1F42B999A940083E8CF /* EmotionsViewController.swift in Sources */,
+				1B96F1FA2B999AFB0083E8CF /* LikesViewController.swift in Sources */,
+				1B96F2002B999B670083E8CF /* BackgroundTableViewCell.swift in Sources */,
 				1B96F1B32B99980F0083E8CF /* ViewController.swift in Sources */,
+				1B96F20D2B9AEFBD0083E8CF /* PersonelGrowth.swift in Sources */,
+				1B96F1EE2B999A1B0083E8CF /* Data.swift in Sources */,
 				1B96F1AF2B99980F0083E8CF /* AppDelegate.swift in Sources */,
+				1B96F1F82B999ADF0083E8CF /* SettingsViewController.swift in Sources */,
+				1B96F20F2B9AF0A20083E8CF /* PositifThinking.swift in Sources */,
 				1B96F1B12B99980F0083E8CF /* SceneDelegate.swift in Sources */,
+				1B96F1F62B999ABA0083E8CF /* HomeViewController.swift in Sources */,
+				1B96F2152BA34CD30083E8CF /* ShareViewController.swift in Sources */,
+				1B96F1FE2B999B3B0083E8CF /* LikedTableViewCell.swift in Sources */,
+				1B96F2132BA10E590083E8CF /* LikesSentences.swift in Sources */,
+				1B96F2182BA3501A0083E8CF /* ShareTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotivUp/MotivUp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74V8J2W6H8;
@@ -459,7 +618,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteCloudz.MotivUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitecloud.MotivUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -472,6 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotivUp/MotivUp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74V8J2W6H8;
@@ -487,7 +647,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteCloudz.MotivUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitecloud.MotivUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -506,7 +666,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteCloudz.MotivUpTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitecloud.MotivUpTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -526,7 +686,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteCloudz.MotivUpTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitecloud.MotivUpTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -544,7 +704,7 @@
 				DEVELOPMENT_TEAM = 74V8J2W6H8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteCloudz.MotivUpUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitecloud.MotivUpUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -562,7 +722,7 @@
 				DEVELOPMENT_TEAM = 74V8J2W6H8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteCloudz.MotivUpUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitecloud.MotivUpUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
