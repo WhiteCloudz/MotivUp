@@ -19,7 +19,7 @@ extension UIViewController {
             backgroundView.addSubview(imageView)
             backgroundView.sendSubviewToBack(imageView)
             imageView.translatesAutoresizingMaskIntoConstraints = false
-            imageView.layer.cornerRadius = imageView.bounds.height / 33
+//            imageView.layer.cornerRadius = imageView.bounds.height / 33
             NSLayoutConstraint.activate([
                 imageView.topAnchor.constraint(equalTo: backgroundView.topAnchor),
                 imageView.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor),

@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-class SetupNameViewController: UIViewController {
+class SetupNameViewController: UIViewController, UITextFieldDelegate {
     
     let backgroundView = UIView()
     let mainVStack = UIStackView()
@@ -67,12 +67,23 @@ class SetupNameViewController: UIViewController {
         addVerticalStack(stackName: subMainStack, spacing: 10, backgrounColor: .clear, layerValue: 0)
         mainVStack.addArrangedSubview(subMainStack)
         
+        nameTextField.delegate = self
         addTextField(textField: nameTextField, stackView: subMainStack, placeHolder: "Your Name", fontSize: 28, textColor: UIColor(hex: "40288E") ?? .black, backgrounColor: UIColor.systemGray6.withAlphaComponent(1.2))  // TextField
         
         setupLayoutLeftAndRight(whereTo: mainVStack, object: nameTextField, valueLeft: 25, valueRight: 25) // Setup TextField Layout
         
         addNilLabel(stackView: subMainStack) // For layout. Nil.
     }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+            textField.resignFirstResponder() 
+            return true
+        }
+
+        
+        override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+            self.view.endEditing(true)
+        }
     
     
     private func setupButtons(){

@@ -165,6 +165,11 @@ class ShareViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let background28 = ImageName(backgroundImageName: "", shareFrameName: "shareFrame28", shareSentence: shareSentence)
         let background29 = ImageName(backgroundImageName: "", shareFrameName: "shareFrame29", shareSentence: shareSentence)
         let background30 = ImageName(backgroundImageName: "", shareFrameName: "shareFrame30", shareSentence: shareSentence)
+        let background31 = ImageName(backgroundImageName: "", shareFrameName: "shareFrame31", shareSentence: shareSentence)
+        let background32 = ImageName(backgroundImageName: "", shareFrameName: "shareFrame32", shareSentence: shareSentence)
+        let background33 = ImageName(backgroundImageName: "", shareFrameName: "shareFrame33", shareSentence: shareSentence)
+        let background34 = ImageName(backgroundImageName: "", shareFrameName: "shareFrame34", shareSentence: shareSentence)
+        let background35 = ImageName(backgroundImageName: "", shareFrameName: "shareFrame35", shareSentence: shareSentence)
        
 
         dataSource.append(background1)
@@ -197,6 +202,11 @@ class ShareViewController: UIViewController, UITableViewDelegate, UITableViewDat
         dataSource.append(background28)
         dataSource.append(background29)
         dataSource.append(background30)
+        dataSource.append(background31)
+        dataSource.append(background32)
+        dataSource.append(background33)
+        dataSource.append(background34)
+        dataSource.append(background35)
     }
     
 }

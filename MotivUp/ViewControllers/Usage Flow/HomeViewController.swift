@@ -79,7 +79,7 @@ class HomeViewController: UIViewController {
     
     
     private func setupUI() {
-        setupBackroundImageToVievController(imageNamed: backgroundImageNamed ?? "homeBackground11", backgroundView: backgroundView)
+        setupBackroundImageToVievController(imageNamed: backgroundImageNamed ?? "homeBackground7", backgroundView: backgroundView)
         view.addSubview(backgroundView)
         backgroundView.translatesAutoresizingMaskIntoConstraints = false
         setupBackgroundViewLayout(backgroundView: backgroundView)

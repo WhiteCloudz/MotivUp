@@ -132,9 +132,10 @@ class SettingsViewController: UIViewController {
     }
 
     
-    @objc func goToContactUsForm(){
-        let NextVC = LikesViewController()
-        self.navigationController?.pushViewController(NextVC, animated: true)
+    @objc func goToContactUsForm() {
+        if let url = URL(string: "https://forms.gle/HDgeCjYwusC5ygTv8") {
+            UIApplication.shared.open(url)
+        }
     }
     
     @objc func goToLikesViewController(){
