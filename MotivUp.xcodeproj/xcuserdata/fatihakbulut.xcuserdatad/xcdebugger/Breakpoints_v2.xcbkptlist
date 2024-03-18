@@ -18,37 +18,17 @@
             endingLineNumber = "54"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "D6BB3853-2ACD-4144-AC79-3EFD84974BAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1051b716c">
             <Locations>
-               <Location
-                  uuid = "D117286E-9CC4-4477-972B-DB7F64A25F7B - 3d21c10f53a85030"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MotivUp.happiness1.unsafeMutableAddressor : Swift.String"
-                  moduleName = "MotivUp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatihakbulut/Documents/MotivUp/MotivUp/Model/SentencesData/Happiness.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  uuid = "D117286E-9CC4-4477-972B-DB7F64A25F7B - 5a72fb4b3db1cded"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "one-time initialization function for happiness1"
-                  moduleName = "MotivUp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatihakbulut/Documents/MotivUp/MotivUp/Model/SentencesData/Happiness.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "52">
-               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
