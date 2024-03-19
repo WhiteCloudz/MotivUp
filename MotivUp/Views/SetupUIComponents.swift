@@ -94,47 +94,53 @@ extension UIViewController {
     
     public func addButtonWithIcone(button: UIButton, stackView: UIStackView, buttonName: String, titleColor: UIColor, backgroundColor: UIColor, layerValue: Int, iconName: String, action: Selector) {
         let containerView = UIView()
-           containerView.backgroundColor = .clear
-           
-           let iconImageView = UIImageView(image: UIImage(systemName: iconName))
-           iconImageView.tintColor = titleColor
-           iconImageView.contentMode = .scaleAspectFit
-           containerView.addSubview(iconImageView)
-           
-           let titleLabel = UILabel()
-           titleLabel.text = buttonName
-           titleLabel.textColor = titleColor
-           containerView.addSubview(titleLabel)
-           
-           button.addSubview(containerView)
-           
-           containerView.translatesAutoresizingMaskIntoConstraints = false
-           iconImageView.translatesAutoresizingMaskIntoConstraints = false
-           titleLabel.translatesAutoresizingMaskIntoConstraints = false
-           
-           NSLayoutConstraint.activate([
-               containerView.leadingAnchor.constraint(equalTo: button.leadingAnchor, constant: 25),
-               containerView.trailingAnchor.constraint(equalTo: button.trailingAnchor, constant: -25),
-               containerView.centerYAnchor.constraint(equalTo: button.centerYAnchor),
-               
-               iconImageView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
-               iconImageView.centerYAnchor.constraint(equalTo: containerView.centerYAnchor),
-               
-               titleLabel.leadingAnchor.constraint(equalTo: iconImageView.trailingAnchor, constant: 25), // Sabit bir boşluk bırakmak için 10 değeri kullanılabilir
-               titleLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
-               titleLabel.centerYAnchor.constraint(equalTo: containerView.centerYAnchor)
-           ])
-           
-           button.setTitleColor(titleColor, for: .normal)
-           button.backgroundColor = backgroundColor
-           button.layer.cornerRadius = CGFloat(layerValue)
-           button.addTarget(self, action: action, for: .touchUpInside)
-           
-           // containerView'ın genişliğini butonun genişliğine göre ayarla
-           button.contentHorizontalAlignment = .fill
-           button.contentVerticalAlignment = .fill
-           
-           stackView.addArrangedSubview(button)
+        
+        let imageView = UIImageView()
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.backgroundColor = .clear
+        imageView.tintColor = titleColor
+        imageView.image = UIImage(systemName: iconName)
+        
+        imageView.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        imageView.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        
+        let textLabel = UILabel()
+        textLabel.translatesAutoresizingMaskIntoConstraints = false
+        textLabel.text = buttonName
+        textLabel.backgroundColor = .clear
+        
+        containerView.addSubview(imageView)
+        containerView.addSubview(textLabel)
+        
+        let imageViewLeadingConstraint = imageView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 15)
+        
+        let textLabelLeadingConstraint = textLabel.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 20)
+        let textLabelTrailingConstraint = textLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor)
+        let textLabelCenterYConstraint = textLabel.centerYAnchor.constraint(equalTo: containerView.centerYAnchor)
+        
+        NSLayoutConstraint.activate([
+            imageViewLeadingConstraint,
+            imageView.centerYAnchor.constraint(equalTo: containerView.centerYAnchor),
+            textLabelLeadingConstraint,
+            textLabelTrailingConstraint,
+            textLabelCenterYConstraint
+        ])
+        
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = backgroundColor
+        button.layer.cornerRadius = CGFloat(layerValue)
+        containerView.addSubview(button)
+        
+        // button için kısıtlamalar
+        NSLayoutConstraint.activate([
+            button.topAnchor.constraint(equalTo: containerView.topAnchor),
+            button.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+            button.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+            button.bottomAnchor.constraint(equalTo: containerView.bottomAnchor)
+        ])
+        button.addTarget(self, action: action, for: .touchUpInside)
+        
+        stackView.addArrangedSubview(containerView)
     }
     
     public func addUILabel(label: UILabel, stackView: UIStackView, text: String, fontSize: Int, textColor: UIColor,textAlignment:NSTextAlignment , backgrounColor: UIColor){

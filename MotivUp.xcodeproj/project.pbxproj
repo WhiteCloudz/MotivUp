@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1BD41A2BA9666E001F3142 /* UpdateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BD4192BA9666E001F3142 /* UpdateTableViewCell.swift */; };
 		1B96F1AF2B99980F0083E8CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1AE2B99980F0083E8CF /* AppDelegate.swift */; };
 		1B96F1B12B99980F0083E8CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1B02B99980F0083E8CF /* SceneDelegate.swift */; };
 		1B96F1B32B99980F0083E8CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96F1B22B99980F0083E8CF /* ViewController.swift */; };
@@ -60,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B1BD4192BA9666E001F3142 /* UpdateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTableViewCell.swift; sourceTree = "<group>"; };
 		1B96F1AB2B99980F0083E8CF /* MotivUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotivUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B96F1AE2B99980F0083E8CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B96F1B02B99980F0083E8CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1BD4142BA96169001F3142 /* SettingsCells */ = {
+			isa = PBXGroup;
+			children = (
+				1B1BD4192BA9666E001F3142 /* UpdateTableViewCell.swift */,
+			);
+			path = SettingsCells;
+			sourceTree = "<group>";
+		};
 		1B96F1A22B99980F0083E8CF = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +246,7 @@
 				1B96F1FF2B999B670083E8CF /* BackgroundTableViewCell.swift */,
 				1B96F2162BA3501A0083E8CF /* ShareTableViewCell.swift */,
 				1B96F2172BA3501A0083E8CF /* ShareTableViewCell.xib */,
+				1B1BD4142BA96169001F3142 /* SettingsCells */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -398,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B96F20B2B9AEEB60083E8CF /* Love.swift in Sources */,
+				1B1BD41A2BA9666E001F3142 /* UpdateTableViewCell.swift in Sources */,
 				1B96F2112B9AF14C0083E8CF /* Happiness.swift in Sources */,
 				1B96F1F02B999A620083E8CF /* FirstViewController.swift in Sources */,
 				1B96F1B92B99980F0083E8CF /* MotivUp.xcdatamodeld in Sources */,
